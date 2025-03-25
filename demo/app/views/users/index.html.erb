@@ -1,4 +1,4 @@
-<%= user_tab_component(text: "All Users", current: true) %>
+<%= user_tab_component(text: "All Users", current: true) if current_user.admin? %>
 
 <table>
   <% @users.each do |user| %>
