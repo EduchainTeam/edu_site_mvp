@@ -10,6 +10,7 @@ gem "importmap-rails"
 gem "turbo-rails"
 gem "stimulus-rails"
 gem "lookbook"
+gem "devise"
 
 gem "educhain_view_components", path: "../"
 
