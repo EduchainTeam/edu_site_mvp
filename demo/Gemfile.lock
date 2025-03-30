@@ -1,8 +1,9 @@
-PATH
-  remote: ..
+GIT
+  remote: git@github.com:EduchainTeam/educhain_view_components.git
+  revision: f98d84120428da188510536ff6ae078939699573
+  branch: develop
   specs:
     educhain_view_components (0.1.0)
-      devise
       importmap-rails (~> 1.2, >= 1.2.1)
       rails (>= 7.2.2.1)
       stimulus-rails

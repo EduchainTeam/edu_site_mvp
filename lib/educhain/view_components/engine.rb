@@ -1,6 +1,7 @@
 require "view_component"
 require "view_component/version"
 require "importmap-rails"
+require "educhain_view_components"
 
 module Educhain
   module ViewComponents
